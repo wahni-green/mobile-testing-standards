@@ -18,6 +18,8 @@ Track 2 feeds Track 1 over time; Track 1 carries the day-to-day weight of gating
 
 Separate from both tracks: **[TESTING_BASELINE.md](TESTING_BASELINE.md)** is not scheduled work — it's the minimum that should exist before Milestone 1a ships, on every project that starts from this file. It covers formatting/locale consistency, interaction idempotency (double-tap, search debounce), device & session integrity (dev-mode/mock-location/root detection, secure token storage), input validation, document-state and schema resilience, attachments, accessibility, stability, and a conditional set (offline queueing, barcode scanning, notifications, multi-company, localization) for projects that need them.
 
+Also separate from both tracks: **[TESTING_LESSONS_LEARNED.md](TESTING_LESSONS_LEARNED.md)** — real-world CI and E2E gotchas from past rollouts (emulator/simulator CI infra, resilient E2E patterns, backend cross-check pitfalls, debugging methodology). Worth a skim before starting Milestone 1b's CI wiring, or any time a scripted E2E suite goes flaky.
+
 ---
 
 ## The core mechanism: never trust the screen alone
