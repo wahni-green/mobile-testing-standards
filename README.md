@@ -17,7 +17,7 @@ git submodule add https://github.com/wahni-green/mobile-testing-standards.git te
 Point your project's `CLAUDE.md` (or equivalent) at it so an AI agent picks it up automatically, e.g.:
 
 ```
-See testing-standards/TESTING_ARCHITECTURE.md for the testing approach and testing-standards/TESTING_BASELINE.md for baseline invariants to scaffold first.
+See testing-standards/TESTING_ARCHITECTURE.md for the testing approach, testing-standards/TESTING_BASELINE.md for baseline invariants to scaffold first, and testing-standards/TESTING_LESSONS_LEARNED.md for field notes from past rollouts.
 ```
 
 ### Tracking your project's rollout progress
