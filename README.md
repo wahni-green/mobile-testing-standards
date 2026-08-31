@@ -4,6 +4,7 @@ Reusable testing architecture and baseline invariants for Flutter apps backed by
 
 - **[TESTING_ARCHITECTURE.md](TESTING_ARCHITECTURE.md)** — the two-track testing approach (scripted regression suite + exploratory AI agent), the core verification mechanism, and a phased rollout plan.
 - **[TESTING_BASELINE.md](TESTING_BASELINE.md)** — the cross-cutting invariants every project should scaffold before any feature-specific test work (Milestone 0): date/currency formatting, interaction idempotency, device & session integrity, input validation, and more.
+- **[TESTING_LESSONS_LEARNED.md](TESTING_LESSONS_LEARNED.md)** — field notes from real rollouts: CI infrastructure gotchas for emulator/simulator E2E, resilient E2E test-writing patterns, backend cross-check pitfalls, and the debugging methodology that paid off when a cross-check went wrong.
 
 ## Using this in a project
 
@@ -16,7 +17,7 @@ git submodule add https://github.com/wahni-green/mobile-testing-standards.git te
 Point your project's `CLAUDE.md` (or equivalent) at it so an AI agent picks it up automatically, e.g.:
 
 ```
-See testing-standards/TESTING_ARCHITECTURE.md for the testing approach and testing-standards/TESTING_BASELINE.md for baseline invariants to scaffold first.
+See testing-standards/TESTING_ARCHITECTURE.md for the testing approach, testing-standards/TESTING_BASELINE.md for baseline invariants to scaffold first, and testing-standards/TESTING_LESSONS_LEARNED.md for field notes from past rollouts.
 ```
 
 ### Tracking your project's rollout progress
